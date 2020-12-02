@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>gzgz-cloud</artifactId>
+        <groupId>com.gzgz.coud</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>gzgz-cloud-authority</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>cloud-authority-assemble</module>
+        <module>cloud-authority-biz</module>
+        <module>cloud-authority-dal</module>
+        <module>cloud-authority-facade</module>
+        <module>cloud-authority-test</module>
+        <module>cloud-authority-web</module>
+    </modules>
+
+
+</project>
