@@ -48,7 +48,7 @@
 | springboot    | 2.2.5.RELESE   | 官网                           |
 | spring-cloud    | Hoxton.SR9   | 官网                           |
 | spring-cloud-alibaba    | 2.2.1.RELEASE   | 官网                           |
-
+| Knife4j       |3.0.2   |https://xiaoym.gitee.io/knife4j/documentation/changelog.html   |
 ## 组织架构
 
 ```

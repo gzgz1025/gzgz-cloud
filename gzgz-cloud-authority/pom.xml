@@ -20,5 +20,11 @@
         <module>cloud-authority-web</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.gzgz.cloud</groupId>
+            <artifactId>gzgz-cloud-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
