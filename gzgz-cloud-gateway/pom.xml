@@ -9,16 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gzgz-cloud-authority</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>cloud-authority-assemble</module>
-        <module>cloud-authority-biz</module>
-        <module>cloud-authority-dal</module>
-        <module>cloud-authority-facade</module>
-        <module>cloud-authority-test</module>
-        <module>cloud-authority-web</module>
-    </modules>
+    <artifactId>gzgz-cloud-gateway</artifactId>
 
 
 </project>

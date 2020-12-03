@@ -2,18 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-authority-facade" />
-        <module name="cloud-authority-assemble" />
         <module name="gzgz-cloud-common" />
+        <module name="cloud-authority-assemble" />
+        <module name="gzgz-cloud-monitor" />
+        <module name="cloud-authority-test" />
         <module name="cloud-authority-dal" />
         <module name="cloud-authority-web" />
+        <module name="gzgz-cloud-shiro" />
+        <module name="cloud-authority-facade" />
+        <module name="gzgz-cloud-gateway" />
         <module name="cloud-authority-biz" />
-        <module name="cloud-authority-test" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-authority-assemble" options="-parameters" />
+      <module name="cloud-authority-biz" options="-parameters" />
+      <module name="cloud-authority-dal" options="-parameters" />
+      <module name="cloud-authority-facade" options="-parameters" />
+      <module name="cloud-authority-test" options="-parameters" />
+      <module name="cloud-authority-web" options="-parameters" />
+      <module name="gzgz-cloud-common" options="-parameters" />
+      <module name="gzgz-cloud-gateway" options="-parameters" />
+      <module name="gzgz-cloud-monitor" options="-parameters" />
+      <module name="gzgz-cloud-shiro" options="-parameters" />
+    </option>
   </component>
 </project>

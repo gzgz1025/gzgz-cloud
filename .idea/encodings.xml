@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-biz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gzgz-cloud-shiro" charset="UTF-8" />
+  </component>
+</project>

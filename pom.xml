@@ -4,13 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gzgz.coud</groupId>
+    <groupId>com.gzgz.cloud</groupId>
     <artifactId>gzgz-cloud</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>gzgz-cloud-common</module>
         <module>gzgz-cloud-authority</module>
+        <module>gzgz-cloud-shiro</module>
+        <module>gzgz-cloud-gateway</module>
+        <module>gzgz-cloud-monitor</module>
     </modules>
 
 

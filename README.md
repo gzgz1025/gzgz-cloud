@@ -38,9 +38,9 @@
 gzgz-cloud
 ├─gzgz-cloud-common    -- 工具类及通用代码
 ├─gzgz-cloud-mbg MBG   -- 代码生成器
-├─gzgz-cloud-shiro  -- apache shiro 公共配置类
+├─gzgz-cloud-shiro     -- apache shiro 公共配置类
 ├─gzgz-cloud-gateway   -- 网关服务
-├─gzgz-cloud-boot-admin -- spring boot admin 监控
+├─gzgz-cloud-monitor   -- spring boot admin 监控
 ├─gzgz-cloud-storage   --  文件存储服务
 
 ```
