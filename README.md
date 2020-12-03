@@ -32,6 +32,22 @@
 - 定时器管理：XXL-JOB
 - 监控工具：spring boot admin
 
+## 版本说明
+
+| 工具          | 版本号 | 下载                                                         |
+| ------------- | ------ | ------------------------------------------------------------ |
+| JDK           | 1.8    | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
+| Mysql         | 5.7    | https://www.mysql.com/                                       |
+| Redis         | 5.0    | https://redis.io/download                                    |
+| Zipkin        | 2.12.9 | https://zipkin.io/ |
+| Elasticsearch | 6.2.2  | https://www.elastic.co/downloads                             |
+| MongoDb       | 4.2.5    | https://www.mongodb.com/download-center                    |
+| RabbitMq      | 3.7.14 | http://www.rabbitmq.com/download.html                        |
+| nginx         | 1.10   | http://nginx.org/en/download.html                            |
+| springboot    | 2.2.5.RELESE   | 官网                           |
+| spring-cloud    | Hoxton.SR9   | 官网                           |
+| spring-cloud-alibaba    | 2.2.1.RELEASE   | 官网                           |
+
 ## 组织架构
 
 ```
