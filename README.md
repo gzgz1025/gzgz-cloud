@@ -19,7 +19,7 @@
 - 服务调用：Spring cloud open-Feign
 - 负载均衡：Spring cloud loadbalancer
 - 链路追踪：zipkin + sleuth  
-- 权限认证：shiro 
+- 权限认证：shiro + JWT
 - 熔断降级：Sentinel
 - 消息队列：RabbitMQ 
 - 项目部署：Docker
@@ -59,8 +59,13 @@ gzgz-cloud
 ├─gzgz-cloud-gateway   -- 网关服务
 ├─gzgz-cloud-monitor   -- spring boot admin 监控
 ├─gzgz-cloud-storage   --  文件存储服务
-
+├─gzgz-cloud-apiservice   --  对接外部接口 httpclient方式
 ```
+
+## 权限架构  
+- 后端：shio+jwt
+- 数据库：RBAC模型
+- 前端：VUE？
 ## 开源许可证
 
 
