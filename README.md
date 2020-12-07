@@ -16,8 +16,8 @@
 - 注册中心：Nacos
 - 配置中心：Nacos
 - 服务网关：Spring cloud Gateway
-- 服务调用：Spring cloud open-Feign
-- 负载均衡：Spring cloud loadbalancer
+- 服务调用：Spring cloud openFeign
+- 负载均衡：Spring cloud openFeign
 - 链路追踪：zipkin + sleuth  
 - 权限认证：shiro + JWT
 - 熔断降级：Sentinel
