@@ -10,13 +10,14 @@
         <module name="gzgz-cloud-common" />
         <module name="cloud-authority-assemble" />
         <module name="gzgz-cloud-monitor" />
-        <module name="cloud-authority-test" />
         <module name="cloud-authority-dal" />
+        <module name="cloud-authority-biz" />
         <module name="cloud-authority-web" />
         <module name="gzgz-cloud-shiro" />
         <module name="cloud-authority-facade" />
+        <module name="gzgz-cloud-apiservice" />
         <module name="gzgz-cloud-gateway" />
-        <module name="cloud-authority-biz" />
+        <module name="cloud-authority-test" />
       </profile>
     </annotationProcessing>
   </component>
@@ -28,6 +29,7 @@
       <module name="cloud-authority-facade" options="-parameters" />
       <module name="cloud-authority-test" options="-parameters" />
       <module name="cloud-authority-web" options="-parameters" />
+      <module name="gzgz-cloud-apiservice" options="-parameters" />
       <module name="gzgz-cloud-common" options="-parameters" />
       <module name="gzgz-cloud-gateway" options="-parameters" />
       <module name="gzgz-cloud-monitor" options="-parameters" />
