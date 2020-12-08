@@ -64,7 +64,7 @@ gzgz-cloud
 ```
 
 ## 权限架构  
-- 后端：shio+jwt
+- 后端：gateway+shio+jwt
 - 数据库：RBAC模型
 - 前端：VUE？
 ## 开源许可证
