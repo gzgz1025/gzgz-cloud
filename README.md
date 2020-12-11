@@ -28,7 +28,7 @@
 - JDK: 1.8  
 - 日志收集: ELK  
 - 文件服务：OSS/Minio
-- 搜索服务器：Elasticsearch
+- 搜索服务器：Elasticsearch（分布式搜索引擎）
 - 定时器管理：XXL-JOB
 - 监控工具：spring boot admin
 - 接口Knife4j(swagger2):(https://xiaoym.gitee.io/knife4j/documentation)  

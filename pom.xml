@@ -15,6 +15,7 @@
         <module>gzgz-cloud-gateway</module>
         <module>gzgz-cloud-monitor</module>
         <module>gzgz-cloud-apiservice</module>
+        <module>gzgz-cloud-elasticSearch</module>
     </modules>
 
 
