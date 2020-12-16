@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f91eb200-b85d-438f-98ad-eca9a1aeaaf4" name="Default Changelist" comment="补充说明">
+    <list default="true" id="f91eb200-b85d-438f-98ad-eca9a1aeaaf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Diagram 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/权限模型.ndm2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/gzgz-cloud-gateway/target/" />
     <ignored path="$PROJECT_DIR$/gzgz-cloud-monitor/target/" />
     <ignored path="$PROJECT_DIR$/gzgz-cloud-apiservice/target/" />
+    <ignored path="$PROJECT_DIR$/gzgz-cloud-elasticSearch/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,50 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-apiservice/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="81" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="81" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="400">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -94,10 +51,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generator.properties">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-online.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" selection-start-column="17" selection-end-column="41" />
+              <caret column="47" selection-start-column="35" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -105,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/AuthorityApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +77,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/MybatisGenerator.java">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="750">
+                <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-search/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-search/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/config/SwaggerConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="37" column="79" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +139,8 @@
     <findStrings>
       <find>niubi</find>
       <find>online</find>
+      <find>web</find>
+      <find>swagger-annotations.version</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +167,6 @@
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-online.properties" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/config/SwaggerConfiguration.java" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/package-info.java" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/authority/facade/api/package-info.java" />
@@ -183,7 +187,9 @@
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/pom.xml" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/pom.xml" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/pom.xml" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/config/SwaggerConfiguration.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-elasticSearch/README.md" />
       </list>
     </option>
   </component>
@@ -218,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,7 +328,17 @@
       <workItem from="1606977598949" duration="11141000" />
       <workItem from="1606989684323" duration="6000" />
       <workItem from="1607063138808" duration="5088000" />
-      <workItem from="1607303365801" duration="5781000" />
+      <workItem from="1607303365801" duration="6839000" />
+      <workItem from="1607390024563" duration="163000" />
+      <workItem from="1607390640610" duration="14000" />
+      <workItem from="1607391181430" duration="812000" />
+      <workItem from="1607393915910" duration="10000" />
+      <workItem from="1607394251522" duration="95000" />
+      <workItem from="1607394513896" duration="2728000" />
+      <workItem from="1607398894949" duration="36000" />
+      <workItem from="1607409190276" duration="332000" />
+      <workItem from="1607496444561" duration="4936000" />
+      <workItem from="1607649391741" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构搭建">
       <created>1606901762433</created>
@@ -422,17 +438,51 @@
       <option name="project" value="LOCAL" />
       <updated>1607330474279</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="补充说明">
+      <created>1607334325790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607334325790</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加权限模型及部分依赖包">
+      <created>1607334360042</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607334360042</updated>
+    </task>
+    <task id="LOCAL-00017" summary="reademe">
+      <created>1607390166117</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607390166117</updated>
+    </task>
+    <task id="LOCAL-00018" summary="分布式搜索ELK">
+      <created>1607649539878</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649539879</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mybatis">
+      <created>1607649597539</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649597539</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25018000" />
+    <option name="totallyTimeSpent" value="36925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,7 +493,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -456,7 +506,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.47438753" />
+      <window_info anchor="bottom" id="Version Control" order="16" visible="true" weight="0.22939867" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Messages" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -528,29 +578,19 @@
     <MESSAGE value="架构图" />
     <MESSAGE value="增加swagger、增加mybatis代码生成器" />
     <MESSAGE value="增加apiservice" />
-    <MESSAGE value="补充说明" />
     <MESSAGE value="负载均衡" />
-    <option name="LAST_COMMIT_MESSAGE" value="负载均衡" />
+    <MESSAGE value="补充说明" />
+    <MESSAGE value="增加权限模型及部分依赖包" />
+    <MESSAGE value="reademe" />
+    <MESSAGE value="分布式搜索ELK" />
+    <MESSAGE value="mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-monitor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/apache-maven-3.5.0/lib/maven-model-builder-3.5.0.jar!/org/apache/maven/model/pom-4.0.0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/架构图.png" />
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/authority/common/asserts/PageList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-402">
@@ -666,25 +706,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/config/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/authority/facade/api/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -749,65 +772,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-online.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="25">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3750">
-          <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-apiservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generator.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/AuthorityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,28 +796,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j/3.0.2/knife4j-3.0.2.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="321">
+          <caret line="106" column="33" lean-forward="true" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-apiservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-spring-boot-starter/3.0.2/knife4j-spring-boot-starter-3.0.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5675">
+          <caret line="227" column="12" selection-start-line="20" selection-start-column="4" selection-end-line="227" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="1175">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/resources/application-online.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/AuthorityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="81" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="81" />
+          <first_editor relative-caret-position="750">
+            <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/src/main/java/com/gzgz/cloud/authority/config/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="37" column="79" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-search/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>

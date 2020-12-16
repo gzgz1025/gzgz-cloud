@@ -10,16 +10,20 @@
         <module name="gzgz-cloud-common" />
         <module name="cloud-authority-assemble" />
         <module name="gzgz-cloud-monitor" />
+        <module name="cloud-authority-test" />
         <module name="cloud-authority-dal" />
-        <module name="cloud-authority-biz" />
         <module name="cloud-authority-web" />
         <module name="gzgz-cloud-shiro" />
         <module name="cloud-authority-facade" />
         <module name="gzgz-cloud-apiservice" />
         <module name="gzgz-cloud-gateway" />
-        <module name="cloud-authority-test" />
+        <module name="gzgz-cloud-search" />
+        <module name="cloud-authority-biz" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gzgz-cloud-search" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -33,6 +37,7 @@
       <module name="gzgz-cloud-common" options="-parameters" />
       <module name="gzgz-cloud-gateway" options="-parameters" />
       <module name="gzgz-cloud-monitor" options="-parameters" />
+      <module name="gzgz-cloud-search" options="-parameters" />
       <module name="gzgz-cloud-shiro" options="-parameters" />
     </option>
   </component>
