@@ -9,7 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gzgz-cloud-search</artifactId>
+    <artifactId>gzgz_cloud_sms</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>cloud_sms_assemble</module>
+        <module>cloud_sms_biz</module>
+        <module>cloud_sms_dal</module>
+    </modules>
 
 
 </project>
