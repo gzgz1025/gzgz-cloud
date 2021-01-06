@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zds.channel.dal.mapper.SmsLogMapper">
+  <resultMap id="BaseResultMap" type="com.zds.channel.dal.model.SmsLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="api_request_no" jdbcType="BIGINT" property="apiRequestNo" />
+    <result column="channel_id" jdbcType="BIGINT" property="channelId" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="send_status" jdbcType="VARCHAR" property="sendStatus" />
+    <result column="send_result" jdbcType="VARCHAR" property="sendResult" />
+    <result column="send_content" jdbcType="VARCHAR" property="sendContent" />
+    <result column="system_code" jdbcType="VARCHAR" property="systemCode" />
+    <result column="business_type" jdbcType="VARCHAR" property="businessType" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zds.channel.dal.mapper.SmsRouteMapper">
+  <resultMap id="BaseResultMap" type="com.zds.channel.dal.model.SmsRoute">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="route_name" jdbcType="VARCHAR" property="routeName" />
+    <result column="route_describe" jdbcType="VARCHAR" property="routeDescribe" />
+    <result column="system_code" jdbcType="VARCHAR" property="systemCode" />
+    <result column="business_type" jdbcType="VARCHAR" property="businessType" />
+    <result column="is_valid" jdbcType="BIT" property="isValid" />
+    <result column="channel_id" jdbcType="BIGINT" property="channelId" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+    <result column="update_time" jdbcType="DATE" property="updateTime" />
+  </resultMap>
+</mapper>

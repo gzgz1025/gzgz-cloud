@@ -1,4 +1,4 @@
-package com.gzgz.cloud.module;
+package com.gzgz.cloud.sms.dal.model;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
