@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.gzgz.cloud.authority.dal.mapper.GzgzTestMapper">
-  <resultMap id="BaseResultMap" type="com.gzgz.cloud.authority.dal.model.GzgzTest">
+<mapper namespace="com.gzgz.cloud.sms.dal.authority.dal.mapper.GzgzTestMapper">
+  <resultMap id="BaseResultMap" type="com.gzgz.cloud.sms.dal.authority.dal.model.GzgzTest">
     <!--
       WARNING - @mbg.generated
     -->

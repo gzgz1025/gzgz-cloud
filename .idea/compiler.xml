@@ -8,21 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gzgz-cloud-search" />
-        <module name="gzgz-cloud-gateway" />
+        <module name="cloud-authority-dal" />
+        <module name="gzgz-cloud-shiro" />
         <module name="gzgz-cloud-mbg" />
-        <module name="cloud-authority-facade" />
+        <module name="gzgz-cloud-event" />
         <module name="cloud-authority-test" />
-        <module name="cloud-authority-biz" />
+        <module name="cloud_sms_web" />
+        <module name="cloud-authority-facade" />
         <module name="cloud-authority-web" />
         <module name="gzgz-cloud-monitor" />
         <module name="cloud_sms_biz" />
         <module name="cloud_sms_dal" />
         <module name="cloud-authority-assemble" />
+        <module name="cloud-sms-facade" />
         <module name="cloud_sms_assemble" />
         <module name="gzgz-cloud-common" />
         <module name="gzgz-cloud-apiservice" />
-        <module name="cloud-authority-dal" />
-        <module name="gzgz-cloud-shiro" />
+        <module name="gzgz-cloud-gateway" />
+        <module name="cloud-authority-biz" />
       </profile>
     </annotationProcessing>
   </component>
@@ -34,11 +37,14 @@
       <module name="cloud-authority-facade" options="-parameters" />
       <module name="cloud-authority-test" options="-parameters" />
       <module name="cloud-authority-web" options="-parameters" />
+      <module name="cloud-sms-facade" options="-parameters" />
       <module name="cloud_sms_assemble" options="-parameters" />
       <module name="cloud_sms_biz" options="-parameters" />
       <module name="cloud_sms_dal" options="-parameters" />
+      <module name="cloud_sms_web" options="-parameters" />
       <module name="gzgz-cloud-apiservice" options="-parameters" />
       <module name="gzgz-cloud-common" options="-parameters" />
+      <module name="gzgz-cloud-event" options="-parameters" />
       <module name="gzgz-cloud-gateway" options="-parameters" />
       <module name="gzgz-cloud-mbg" options="-parameters" />
       <module name="gzgz-cloud-monitor" options="-parameters" />
