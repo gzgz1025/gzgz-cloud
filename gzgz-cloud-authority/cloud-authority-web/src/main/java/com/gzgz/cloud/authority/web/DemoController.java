@@ -1,4 +1,4 @@
-package com.gzgz.cloud.sms.dal.authority.web.controller;
+package com.gzgz.cloud.authority.web;
 
 /**
  * @ClassName: DemoController

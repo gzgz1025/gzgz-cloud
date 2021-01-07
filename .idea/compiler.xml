@@ -8,24 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gzgz-cloud-search" />
-        <module name="cloud-authority-dal" />
-        <module name="gzgz-cloud-shiro" />
+        <module name="cloud-sms-facade" />
+        <module name="gzgz-cloud-gateway" />
         <module name="gzgz-cloud-mbg" />
         <module name="gzgz-cloud-event" />
-        <module name="cloud-authority-test" />
-        <module name="cloud_sms_web" />
         <module name="cloud-authority-facade" />
+        <module name="cloud-authority-test" />
+        <module name="cloud-authority-biz" />
+        <module name="cloud_sms_web" />
         <module name="cloud-authority-web" />
         <module name="gzgz-cloud-monitor" />
         <module name="cloud_sms_biz" />
         <module name="cloud_sms_dal" />
         <module name="cloud-authority-assemble" />
-        <module name="cloud-sms-facade" />
         <module name="cloud_sms_assemble" />
         <module name="gzgz-cloud-common" />
         <module name="gzgz-cloud-apiservice" />
-        <module name="gzgz-cloud-gateway" />
-        <module name="cloud-authority-biz" />
+        <module name="cloud-authority-dal" />
+        <module name="gzgz-cloud-shiro" />
       </profile>
     </annotationProcessing>
   </component>

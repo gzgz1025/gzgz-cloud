@@ -1,4 +1,4 @@
-package com.gzgz.cloud.sms.dal.authority.dal;
+package com.gzgz.cloud.authority.dal;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
