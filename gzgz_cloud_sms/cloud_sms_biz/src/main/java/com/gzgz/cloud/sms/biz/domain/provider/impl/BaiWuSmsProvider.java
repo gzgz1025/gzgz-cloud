@@ -7,6 +7,7 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
 import com.gzgz.cloud.common.asserts.Result;
+import com.gzgz.cloud.event.EventBus;
 import com.gzgz.cloud.sms.biz.domain.factory.LogFactory;
 import com.gzgz.cloud.sms.biz.domain.provider.AbstractSMSProvider;
 import com.gzgz.cloud.sms.dal.model.SmsChannel;
@@ -29,8 +30,8 @@ public class BaiWuSmsProvider extends AbstractSMSProvider {
 
     private static final int SUCCESS_CODE = 0;
     private List<String> tagNames = Arrays.asList("error", "message");
-    /*@Autowired
-    private EventBus eventBus;*/
+    @Autowired
+    private EventBus eventBus;
 
     @Override
     public Result doSend(List<String> mobileNos, String content, SmsChannel channel, String systemCode, String businessType) {
@@ -74,7 +75,7 @@ public class BaiWuSmsProvider extends AbstractSMSProvider {
             log.info("发送短信完成 {mobile:{},content:{},result:{}}", mobileNo, content, resultBase);
 
             //日志记录
-            //eventBus.publishAsync(LogFactory.createSMSSendLog( Long.valueOf(serId), systemCode, businessType, channel.getId(), mobileNos, resultBase.getCode(), resultBase.getMessage(), content));
+            eventBus.publishAsync(LogFactory.createSMSSendLog( Long.valueOf(serId), systemCode, businessType, channel.getId(), mobileNos, resultBase.getCode(), resultBase.getMessage(), content));
             return resultBase;
         } catch (Exception e) {
             log.warn("发送短信失败 号码:{},内容:{}", mobileNo, content, e);

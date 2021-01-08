@@ -1,11 +1,11 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
-import com.zds.boot.common.exception.BusinessException;
-import com.zds.channel.biz.smsplatform.domain.provider.SmsProvider;
-import com.zds.channel.biz.smsplatform.domain.service.SmsRouteService;
-import com.zds.channel.dal.mapper.SmsRouteMapper;
-import com.zds.channel.dal.model.SmsRoute;
-import com.zds.channel.facade.api.smsplatform.enums.SMSProviderEnum;
+import com.gzgz.cloud.common.exception.AssertsException;
+import com.gzgz.cloud.mbg.mapper.SmsRouteMapper;
+import com.gzgz.cloud.sms.biz.domain.provider.SmsProvider;
+import com.gzgz.cloud.sms.biz.domain.service.SmsRouteService;
+import com.gzgz.cloud.sms.dal.model.SmsRoute;
+import com.gzgz.cloud.sms.facade.enums.SMSProviderEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,7 +54,7 @@ public class SmsRouteServiceImpl implements SmsRouteService, ApplicationContextA
     public SmsProvider getSmsProvider(String providerCode) {
         SMSProviderEnum providerEnum = Enum.valueOf(SMSProviderEnum.class, providerCode);
         smsProvider = PROVIDER_MAP.get(providerEnum.code());
-        BusinessException.throwIt(smsProvider == null, "短信smsProvider未注入");
+        AssertsException.throwIt(smsProvider == null, "短信smsProvider未注入");
         return smsProvider;
     }
 

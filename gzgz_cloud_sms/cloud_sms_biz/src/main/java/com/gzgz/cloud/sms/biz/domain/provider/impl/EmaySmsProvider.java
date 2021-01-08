@@ -7,11 +7,13 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
 import com.gzgz.cloud.common.asserts.Result;
+import com.gzgz.cloud.event.EventBus;
 import com.gzgz.cloud.sms.biz.domain.factory.LogFactory;
 import com.gzgz.cloud.sms.biz.domain.provider.AbstractSMSProvider;
 import com.gzgz.cloud.sms.dal.model.SmsChannel;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
@@ -37,8 +39,8 @@ public class EmaySmsProvider extends AbstractSMSProvider {
 
     private static final int SUCCESS_CODE = 0;
     private List<String> tagNames = Arrays.asList("error", "message");
-    /*@Autowired
-    private EventBus eventBus;*/
+    @Autowired
+    private EventBus eventBus;
 
     @Override
     public Result doSend(List<String> mobileNos, String content, SmsChannel channel, String systemCode, String businessType) {
@@ -81,7 +83,7 @@ public class EmaySmsProvider extends AbstractSMSProvider {
             Result resultBase = unmashall(httpBody, tagNames);
             log.info("发送短信完成 {mobile:{},content:{},result:{}}", mobileNo, content, resultBase);
             //记录日志
-            //eventBus.publishAsync(LogFactory.createSMSSendLog( Long.valueOf(segId), systemCode, businessType, channel.getId(), mobileNos, resultBase.getCode(), resultBase.getMessage(), content));
+            eventBus.publishAsync(LogFactory.createSMSSendLog( Long.valueOf(segId), systemCode, businessType, channel.getId(), mobileNos, resultBase.getCode(), resultBase.getMessage(), content));
             return resultBase;
         } catch (Exception e) {
             log.warn("发送短信失败 号码:{},内容:{}", mobileNo, content, e);
