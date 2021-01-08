@@ -8,6 +8,7 @@ import javax.validation.Constraint;
 import javax.validation.Payload;
 import javax.validation.ReportAsSingleViolation;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Null;
 import javax.validation.constraints.Pattern;
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -26,7 +27,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @ConstraintComposition(CompositionType.OR)
 @Pattern(regexp = "^1[3|4|5|7|8|9][0-9]{9}$")
-@NotNull
+@Null
 @Length(min = 11, max = 11)
 @Documented
 @Constraint(validatedBy = {})
