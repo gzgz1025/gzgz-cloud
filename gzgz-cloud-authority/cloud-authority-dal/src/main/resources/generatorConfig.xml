@@ -20,7 +20,7 @@
         <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin" />
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.special.InsertListMapper"/>
             <property name="caseSensitive" value="true"/>
             <property name="forceAnnotation" value="true"/>
         </plugin>
@@ -45,6 +45,10 @@
         <!--生成全部表tableName设为%-->
         <table tableName="%">
             <generatedKey column="id" sqlStatement="JDBC"/>
+            <columnRenamingRule searchString="is_" replaceString=""/>
+            <columnOverride column="code" javaType="com.gzgz.learning.enums.CodeEnums" />
+            <ignoreColumn column="create_time"/>
+            <ignoreColumn column="update_time"/>
         </table>
     </context>
 </generatorConfiguration>
