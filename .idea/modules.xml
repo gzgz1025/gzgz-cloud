@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/cloud-authority-assemble.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-assemble/cloud-authority-assemble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-biz/cloud-authority-biz.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-biz/cloud-authority-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/cloud-authority-dal.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/cloud-authority-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/cloud-authority-facade.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/cloud-authority-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-test/cloud-authority-test.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-test/cloud-authority-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/cloud-authority-web.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/cloud-authority-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-assemble/cloud-sms-assemble.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-assemble/cloud-sms-assemble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-biz/cloud-sms-biz.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-biz/cloud-sms-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-dal/cloud-sms-dal.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-dal/cloud-sms-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-facade/cloud-sms-facade.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-facade/cloud-sms-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-web/cloud-sms-web.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/cloud-sms-web/cloud-sms-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gzgz-cloud.iml" filepath="$PROJECT_DIR$/.idea/gzgz-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-apiservice/gzgz-cloud-apiservice.iml" filepath="$PROJECT_DIR$/gzgz-cloud-apiservice/gzgz-cloud-apiservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-authority/gzgz-cloud-authority.iml" filepath="$PROJECT_DIR$/gzgz-cloud-authority/gzgz-cloud-authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-common/gzgz-cloud-common.iml" filepath="$PROJECT_DIR$/gzgz-cloud-common/gzgz-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-event/gzgz-cloud-event.iml" filepath="$PROJECT_DIR$/gzgz-cloud-event/gzgz-cloud-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-gateway/gzgz-cloud-gateway.iml" filepath="$PROJECT_DIR$/gzgz-cloud-gateway/gzgz-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-mbg/gzgz-cloud-mbg.iml" filepath="$PROJECT_DIR$/gzgz-cloud-mbg/gzgz-cloud-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-monitor/gzgz-cloud-monitor.iml" filepath="$PROJECT_DIR$/gzgz-cloud-monitor/gzgz-cloud-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-search/gzgz-cloud-search.iml" filepath="$PROJECT_DIR$/gzgz-cloud-search/gzgz-cloud-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-shiro/gzgz-cloud-shiro.iml" filepath="$PROJECT_DIR$/gzgz-cloud-shiro/gzgz-cloud-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-sms/gzgz-cloud-sms.iml" filepath="$PROJECT_DIR$/gzgz-cloud-sms/gzgz-cloud-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gzgz-cloud-test/gzgz-cloud-test.iml" filepath="$PROJECT_DIR$/gzgz-cloud-test/gzgz-cloud-test.iml" />
+    </modules>
+  </component>
+</project>

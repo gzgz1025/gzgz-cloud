@@ -16,9 +16,10 @@
         <module>gzgz-cloud-monitor</module>
         <module>gzgz-cloud-apiservice</module>
         <module>gzgz-cloud-search</module>
-        <module>gzgz_cloud_sms</module>
+        <module>gzgz-cloud-sms</module>
         <module>gzgz-cloud-mbg</module>
         <module>gzgz-cloud-event</module>
+        <module>gzgz-cloud-test</module>
     </modules>
 
 

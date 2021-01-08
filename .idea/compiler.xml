@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,24 +9,50 @@
         <module name="gzgz-cloud-search" />
         <module name="cloud-sms-facade" />
         <module name="gzgz-cloud-gateway" />
-        <module name="gzgz-cloud-mbg" />
+        <module name="cloud-sms-web" />
         <module name="gzgz-cloud-event" />
         <module name="cloud-authority-facade" />
         <module name="cloud-authority-test" />
-        <module name="cloud_sms_web" />
         <module name="cloud-authority-web" />
-        <module name="cloud_sms_assemble" />
         <module name="gzgz-cloud-monitor" />
-        <module name="cloud_sms_biz" />
-        <module name="cloud_sms_dal" />
+        <module name="cloud-sms-biz" />
         <module name="cloud-authority-assemble" />
+        <module name="cloud-sms-dal" />
+        <module name="gzgz-cloud-mbg" />
         <module name="cloud-authority-biz" />
+        <module name="cloud-sms-assemble" />
         <module name="gzgz-cloud-common" />
         <module name="gzgz-cloud-apiservice" />
         <module name="cloud-authority-dal" />
         <module name="gzgz-cloud-shiro" />
+        <module name="gzgz-cloud-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-authority-assemble" target="1.8" />
+      <module name="cloud-authority-biz" target="1.8" />
+      <module name="cloud-authority-dal" target="1.8" />
+      <module name="cloud-authority-facade" target="1.8" />
+      <module name="cloud-authority-test" target="1.8" />
+      <module name="cloud-authority-web" target="1.8" />
+      <module name="cloud-sms-assemble" target="1.8" />
+      <module name="cloud-sms-biz" target="1.8" />
+      <module name="cloud-sms-dal" target="1.8" />
+      <module name="cloud-sms-facade" target="1.8" />
+      <module name="cloud-sms-web" target="1.8" />
+      <module name="gzgz-cloud" target="1.8" />
+      <module name="gzgz-cloud-apiservice" target="1.8" />
+      <module name="gzgz-cloud-authority" target="1.8" />
+      <module name="gzgz-cloud-common" target="1.8" />
+      <module name="gzgz-cloud-event" target="1.8" />
+      <module name="gzgz-cloud-gateway" target="1.8" />
+      <module name="gzgz-cloud-mbg" target="1.8" />
+      <module name="gzgz-cloud-monitor" target="1.8" />
+      <module name="gzgz-cloud-search" target="1.8" />
+      <module name="gzgz-cloud-shiro" target="1.8" />
+      <module name="gzgz-cloud-sms" target="1.8" />
+      <module name="gzgz-cloud-test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -37,11 +62,11 @@
       <module name="cloud-authority-facade" options="-parameters" />
       <module name="cloud-authority-test" options="-parameters" />
       <module name="cloud-authority-web" options="-parameters" />
+      <module name="cloud-sms-assemble" options="-parameters" />
+      <module name="cloud-sms-biz" options="-parameters" />
+      <module name="cloud-sms-dal" options="-parameters" />
       <module name="cloud-sms-facade" options="-parameters" />
-      <module name="cloud_sms_assemble" options="-parameters" />
-      <module name="cloud_sms_biz" options="-parameters" />
-      <module name="cloud_sms_dal" options="-parameters" />
-      <module name="cloud_sms_web" options="-parameters" />
+      <module name="cloud-sms-web" options="-parameters" />
       <module name="gzgz-cloud-apiservice" options="-parameters" />
       <module name="gzgz-cloud-common" options="-parameters" />
       <module name="gzgz-cloud-event" options="-parameters" />
@@ -50,7 +75,7 @@
       <module name="gzgz-cloud-monitor" options="-parameters" />
       <module name="gzgz-cloud-search" options="-parameters" />
       <module name="gzgz-cloud-shiro" options="-parameters" />
-      <module name="gzgz_cloud_sms" options="-parameters" />
+      <module name="gzgz-cloud-test" options="-parameters" />
     </option>
   </component>
 </project>
