@@ -1,7 +1,7 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
 import com.gzgz.cloud.common.asserts.Result;
-import com.gzgz.cloud.common.exception.Asserts;
+import com.gzgz.cloud.common.exception.AssertsException;
 import com.gzgz.cloud.sms.biz.domain.provider.SmsProvider;
 import com.gzgz.cloud.sms.biz.domain.service.SmsChannelService;
 import com.gzgz.cloud.sms.biz.domain.service.SmsPlatformService;
@@ -93,14 +93,10 @@ public class SmsPlatformServiceImpl implements SmsPlatformService {
     private SmsChannel getChannel(String systemCode, String businessType) {
         //查询路由
         SmsRoute smsRoute = routeService.getSmsRoute(systemCode, businessType);
-        if(ObjectUtils.isEmpty(smsRoute)){
-            Asserts.fail("路由无效或无相关路由配置");
-        }
+        AssertsException.throwIt(smsRoute==null,"路由无效或无相关路由配置");
         //获取渠道
         SmsChannel channel = channelService.getSmsChannelByID(smsRoute.getChannelId());
-        if(ObjectUtils.isEmpty(channel)){
-            Asserts.fail("渠道无效或无相关渠道配置");
-        }
+        AssertsException.throwIt(channel==null,"渠道无效或无相关渠道配置");
         return channel;
     }
 
@@ -114,9 +110,7 @@ public class SmsPlatformServiceImpl implements SmsPlatformService {
     private String getContent(String templateCode, Map<String, String> templateParam) {
         //获取模板
         SmsTemplate smsTemplate = templateService.getSmsTemplateByCode(templateCode);
-        if(ObjectUtils.isEmpty(smsTemplate)){
-            Asserts.fail("模板无效或无相关模板配置");
-        }
+        AssertsException.throwIt(smsTemplate==null,"模板无效或无相关模板配置");
         //数据库中的参数
         String resultParam = smsTemplate.getTemplateParam();
         String content = smsTemplate.getTemplateContent();
@@ -137,16 +131,10 @@ public class SmsPlatformServiceImpl implements SmsPlatformService {
      * @param templateParam
      */
     private void validateTemplateParam(String templateParams, Map<String, String> templateParam) {
-        if(!Pattern.matches("^[a-zA-Z0-9,\u4e00-\u9fa5]+$", templateParams)){
-            Asserts.fail("数据库中多个模板参数必须以英文逗号隔开");
-        }
-        if(templateParams.split(",").length != templateParam.size()){
-            Asserts.fail("传入模板参数个数不对");
-        }
+        AssertsException.throwIt(!Pattern.matches("^[a-zA-Z0-9,\u4e00-\u9fa5]+$", templateParams),"数据库中多个模板参数必须以英文逗号隔开");
+        AssertsException.throwIt(templateParams.split(",").length != templateParam.size(),"传入模板参数个数不对");
         Stream.of(templateParams.split(",")).forEach(s -> {
-            if(StringUtils.isEmpty(templateParam.get(s))){
-                Asserts.fail("传入参数不对");
-            }
+            AssertsException.throwIt(StringUtils.isEmpty(templateParam.get(s)),"传入参数不对");
         });
     }
 

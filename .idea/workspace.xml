@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91eb200-b85d-438f-98ad-eca9a1aeaaf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gzgz-cloud-event/src/main/java/com/gzgz/cloud/event/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/CommonErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/AssertsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/sms/dal/authority/dal/MybatisGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/MybatisGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/sms/dal/authority/dal/mapper/GzgzTestMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/sms/dal/authority/dal/mapper/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/sms/dal/authority/dal/model/GzgzTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/sms/dal/authority/dal/model/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/model/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/mybatis/GzgzTestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/mybatis/GzgzTestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/sms/dal/authority/facade/api/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/authority/facade/api/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/sms/dal/authority/facade/dto/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/authority/facade/dto/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/sms/dal/authority/facade/enums/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-facade/src/main/java/com/gzgz/cloud/authority/facade/enums/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/sms/dal/authority/web/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/sms/dal/authority/web/controller/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/IErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/ResultEnums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/TestSmsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/TestSmsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,17 +55,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="675">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+              <folding>
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/event/SaveSmsLogEventHandler.java">
+        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/EmaySmsProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="-800">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsChannelServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/factory/LogFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/BaiWuSmsProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
+            <state relative-caret-position="822">
               <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,54 +122,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/EmaySmsProvider.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/TestSmsProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/AssertsException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2277">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3073#3074#0" expanded="true" />
+                <element signature="e#3105#3106#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
+                <element signature="e#3177#3178#0" expanded="true" />
+                <element signature="e#3205#3206#0" expanded="true" />
+                <element signature="e#3237#3238#0" expanded="true" />
+                <element signature="e#3268#3269#0" expanded="true" />
+                <element signature="e#3308#3309#0" expanded="true" />
+                <element signature="e#3358#3359#0" expanded="true" />
+                <element signature="e#3409#3410#0" expanded="true" />
+                <element signature="e#3472#3473#0" expanded="true" />
+                <element signature="e#3529#3530#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-event/src/main/java/com/gzgz/cloud/event/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/MybatisGenerator.java">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/DemoController.java">
+        <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="33" column="6" lean-forward="true" selection-end-line="101" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/doc/zds_channel.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -153,7 +189,11 @@
       <find>web</find>
       <find>swagger-annotations.version</find>
       <find>EnumMessage</find>
+      <find>BusinessException</find>
     </findStrings>
+    <replaceStrings>
+      <replace>AssertsException</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,21 +201,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/authority/common/log/LogFactory.java" />
-        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/authority/common/log/LogTaskFactory.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_dal/src/main/java/com/gzgz/cloud/model/SmsChannel.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/pom.xml" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/src/main/java/com/gzgz/cloud/SmsMain.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/src/main/java/com/gzgz/cloud/sms/dal/SmsMain.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/src/main/java/com/gzgz/cloud/sms/assemble/SmsMain.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/src/main/java/com/gzgz/cloud/sms/assemble/config/SwaggerConfiguration.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/pom.xml" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_assemble/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud-sms-facade/pom.xml" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/ResultEnums.java" />
-        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/ResultEnums.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_web/src/main/java/com/gzgz/cloud/sms/web/SmsPlatformController.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/appservice/SmsAppServiceImpl.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/SmsPlatformService.java" />
@@ -188,7 +219,6 @@
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/SmsTemplateService.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsTemplateServiceImpl.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_dal/src/main/java/com/gzgz/cloud/mbg/mapper/SmsTemplateMapper.java" />
-        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/SmsLogService.java" />
         <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_dal/src/main/java/com/gzgz/cloud/mbg/mapper/SmsLogMapper.java" />
@@ -212,6 +242,16 @@
         <option value="$PROJECT_DIR$/gzgz-cloud-event/src/main/java/com/gzgz/cloud/event/package-info.java" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/GzgzTestMapper.java" />
         <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/package-info.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/ResultEnums.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/ApiException.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/Asserts.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/AssertsException.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/CommonErrorCode.java" />
+        <option value="$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/TestSmsProvider.java" />
       </list>
     </option>
   </component>
@@ -246,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,38 +296,152 @@
             <path>
               <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="gzgz-cloud-authority" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz-cloud-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="gzgz-cloud-event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="gzgz-cloud-event" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz-cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="gzgz-cloud-event" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz-cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="gzgz-cloud-event" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz-cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gzgz-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gzgz-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gzgz_cloud_sms" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_sms_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -306,7 +459,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -407,7 +560,9 @@
       <workItem from="1609813158992" duration="301000" />
       <workItem from="1609896260317" duration="326000" />
       <workItem from="1609897643255" duration="10387000" />
-      <workItem from="1609981413070" duration="649000" />
+      <workItem from="1609981413070" duration="1514000" />
+      <workItem from="1610072453253" duration="732000" />
+      <workItem from="1610074258584" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构搭建">
       <created>1606901762433</created>
@@ -598,14 +753,29 @@
       <option name="project" value="LOCAL" />
       <updated>1609908865865</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="更新代码目录">
+      <created>1609982075848</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609982075848</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改配置">
+      <created>1610072559773</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610072559773</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54716000" />
+    <option name="totallyTimeSpent" value="59468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -692,7 +862,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="项目结构搭建" />
     <MESSAGE value="加入BeanCopy工具类" />
     <MESSAGE value="加入Spring boot\cloud\cloud alibaba等常用依赖包" />
     <MESSAGE value="增加说明" />
@@ -716,82 +885,15 @@
     <MESSAGE value="sql文件" />
     <MESSAGE value="消息事件" />
     <MESSAGE value="更新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+    <MESSAGE value="更新代码目录" />
+    <MESSAGE value="修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/SmsPlatformConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/Asserts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/ApiException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/SmsChannelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/4.1.5/mapper-4.1.5.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsChannelServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_dal/src/main/java/com/gzgz/cloud/mbg/mapper/SmsChannelMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/SmsTemplateService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -813,16 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="146" column="57" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -860,16 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/factory/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -965,20 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/BeanCopyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/CommUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/EnumUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -986,31 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/GenerateDateTimeUniqueID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/ResultEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/IErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1030,37 +1077,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/model/GzgzTest.java" />
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/GzgzTestMapper.java" />
-    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/event/SaveSmsLogEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/BaiWuSmsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/EmaySmsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,9 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/doc/zds_channel.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/java/com/gzgz/cloud/authority/dal/mapper/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1092,6 +1109,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-web/src/main/java/com/gzgz/cloud/authority/web/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/mybatis/GzgzTestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/doc/zds_channel.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-authority/cloud-authority-dal/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/CommUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/BeanCopyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/IErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/ApiException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/enums/CommonErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/AssertsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2277">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3073#3074#0" expanded="true" />
+            <element signature="e#3105#3106#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3177#3178#0" expanded="true" />
+            <element signature="e#3205#3206#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3268#3269#0" expanded="true" />
+            <element signature="e#3308#3309#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3529#3530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="6" lean-forward="true" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/utils/Messageable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/EmaySmsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsChannelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/service/impl/SmsPlatformServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/factory/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/BaiWuSmsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz-cloud-common/src/main/java/com/gzgz/cloud/common/asserts/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gzgz_cloud_sms/cloud_sms_biz/src/main/java/com/gzgz/cloud/sms/biz/domain/provider/impl/TestSmsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

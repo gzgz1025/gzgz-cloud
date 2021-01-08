@@ -14,14 +14,14 @@
         <module name="gzgz-cloud-event" />
         <module name="cloud-authority-facade" />
         <module name="cloud-authority-test" />
-        <module name="cloud-authority-biz" />
         <module name="cloud_sms_web" />
         <module name="cloud-authority-web" />
+        <module name="cloud_sms_assemble" />
         <module name="gzgz-cloud-monitor" />
         <module name="cloud_sms_biz" />
         <module name="cloud_sms_dal" />
         <module name="cloud-authority-assemble" />
-        <module name="cloud_sms_assemble" />
+        <module name="cloud-authority-biz" />
         <module name="gzgz-cloud-common" />
         <module name="gzgz-cloud-apiservice" />
         <module name="cloud-authority-dal" />

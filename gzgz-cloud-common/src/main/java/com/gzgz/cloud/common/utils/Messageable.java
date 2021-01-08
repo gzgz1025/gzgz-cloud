@@ -11,6 +11,5 @@ import java.io.Serializable;
  */
 public interface Messageable extends Serializable {
     String code();
-
     String message();
 }
