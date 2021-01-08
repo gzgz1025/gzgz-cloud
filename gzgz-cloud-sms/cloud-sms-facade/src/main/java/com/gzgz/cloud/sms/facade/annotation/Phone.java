@@ -25,7 +25,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  */
 
 @ConstraintComposition(CompositionType.OR)
-@Pattern(regexp = "^((13[0-9])|(15[^4,\\D])|(18[0-9]))\\d{8}$")
+@Pattern(regexp = "^1[3|4|5|7|8|9][0-9]{9}$")
 @Null
 @Length(min = 0, max = 0)
 @Documented
