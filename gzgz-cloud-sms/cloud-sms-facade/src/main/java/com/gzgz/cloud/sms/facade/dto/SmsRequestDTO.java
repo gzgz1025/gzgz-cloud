@@ -1,6 +1,7 @@
 package com.gzgz.cloud.sms.facade.dto;
 
 import com.google.common.collect.Lists;
+import com.gzgz.cloud.sms.facade.annotation.Phone;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
@@ -9,7 +10,6 @@ import org.apache.commons.lang3.ObjectUtils;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.util.List;
 
 /**
@@ -26,10 +26,9 @@ public class SmsRequestDTO  {
     /**
      * 多个手机号
      */
-    @NotNull(message = "手机号不能为空")
     @NotEmpty(message = "手机号不能为空")
     @ApiModelProperty(value = "多个手机号")
-    private List<String> mobileNos;
+    private List<@NotBlank(message = "手机号不能为空")@Phone(message = "手机号格式错误") String> mobileNos;
 
     /**
      * 系统

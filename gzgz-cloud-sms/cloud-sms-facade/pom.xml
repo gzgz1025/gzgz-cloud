@@ -22,5 +22,11 @@
             <artifactId>gzgz-cloud-event</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.17.Final</version>
+        </dependency>
     </dependencies>
 </project>
