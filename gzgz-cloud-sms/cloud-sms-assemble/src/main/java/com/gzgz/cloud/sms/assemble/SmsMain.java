@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @CreateDate: 2021/1/6 9:53
  * @Version: 1.0
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.gzgz.cloud.sms.*"})
 @MapperScan(basePackages = {"com.gzgz.cloud.sms.*"})
 public class SmsMain {
     public static void main(String[] args) {
