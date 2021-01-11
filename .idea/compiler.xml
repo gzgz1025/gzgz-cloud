@@ -2,28 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gzgz-cloud-search" />
         <module name="cloud-sms-facade" />
-        <module name="gzgz-cloud-gateway" />
-        <module name="cloud-sms-web" />
+        <module name="gzgz-cloud-mbg" />
         <module name="gzgz-cloud-event" />
         <module name="cloud-authority-facade" />
         <module name="cloud-authority-test" />
         <module name="cloud-authority-web" />
         <module name="gzgz-cloud-monitor" />
+        <module name="cloud-authority-dal" />
         <module name="cloud-sms-biz" />
         <module name="cloud-authority-assemble" />
         <module name="cloud-sms-dal" />
-        <module name="gzgz-cloud-mbg" />
+        <module name="cloud-sms-web" />
         <module name="cloud-authority-biz" />
         <module name="cloud-sms-assemble" />
         <module name="gzgz-cloud-common" />
         <module name="gzgz-cloud-apiservice" />
-        <module name="cloud-authority-dal" />
+        <module name="gzgz-cloud-gateway" />
         <module name="gzgz-cloud-shiro" />
         <module name="gzgz-cloud-test" />
       </profile>

@@ -35,7 +35,7 @@ public class SendSMSTest {
     public void test() {
         List<String> list=new ArrayList<>();
         list.add("15802339724");
-        list.add("12341");
+        list.add("");
         list.add("asdfv");
 
 
