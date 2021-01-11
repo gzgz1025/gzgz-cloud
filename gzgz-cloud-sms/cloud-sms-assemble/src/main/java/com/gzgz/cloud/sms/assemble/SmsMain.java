@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Version: 1.0
  */
 @SpringBootApplication
-@MapperScan("com.gzgz.cloud.sms.dal")
+@MapperScan(basePackages = {"com.gzgz.cloud.sms.*"})
 public class SmsMain {
     public static void main(String[] args) {
         SpringApplication.run(SmsMain.class, args);

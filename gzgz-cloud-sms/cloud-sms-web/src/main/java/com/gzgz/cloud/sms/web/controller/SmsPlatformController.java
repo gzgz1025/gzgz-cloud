@@ -1,4 +1,4 @@
-package com.gzgz.cloud.sms.web;
+package com.gzgz.cloud.sms.web.controller;
 
 import com.gzgz.cloud.common.asserts.Result;
 import com.gzgz.cloud.sms.facade.SmsApiService;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version: 1.0
  */
 @RestController
-@RequestMapping("/channel/service/smsPlatform/")
+@RequestMapping("/sms/")
 @Api(tags = "短信发送接口")
 public class SmsPlatformController {
     @Autowired
