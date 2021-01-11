@@ -11,6 +11,13 @@
 
     <artifactId>cloud-sms-biz</artifactId>
     <dependencies>
+
+        <dependency>
+            <groupId>com.gzgz.cloud</groupId>
+            <artifactId>gzgz-cloud-event</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.gzgz.cloud</groupId>
             <artifactId>cloud-sms-dal</artifactId>

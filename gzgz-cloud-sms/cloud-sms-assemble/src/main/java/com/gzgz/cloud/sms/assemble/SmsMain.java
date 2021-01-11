@@ -3,6 +3,7 @@ package com.gzgz.cloud.sms.assemble;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
@@ -13,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Version: 1.0
  */
 @SpringBootApplication(scanBasePackages = {"com.gzgz.cloud.sms.*"})
-@MapperScan(basePackages = {"com.gzgz.cloud.sms.*"})
+@MapperScan("com.gzgz.cloud.sms.*")
 public class SmsMain {
     public static void main(String[] args) {
         SpringApplication.run(SmsMain.class, args);

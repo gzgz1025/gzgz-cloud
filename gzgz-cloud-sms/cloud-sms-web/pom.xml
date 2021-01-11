@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.gzgz.cloud</groupId>
             <artifactId>cloud-sms-facade</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
     </dependencies>
