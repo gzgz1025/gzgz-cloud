@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zds.channel.dal.mapper.SmsTemplateMapper">
-  <resultMap id="BaseResultMap" type="com.zds.channel.dal.model.SmsTemplate">
+<mapper namespace="com.gzgz.cloud.sms.dal.mapper.SmsTemplateMapper">
+  <resultMap id="BaseResultMap" type="com.gzgz.cloud.sms.dal.model.SmsTemplate">
     <!--
       WARNING - @mbg.generated
     -->
