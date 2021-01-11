@@ -1,6 +1,6 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
-import com.gzgz.cloud.mbg.mapper.SmsChannelMapper;
+import com.gzgz.cloud.sms.dal.mapper.SmsChannelMapper;
 import com.gzgz.cloud.sms.biz.domain.service.SmsChannelService;
 import com.gzgz.cloud.sms.dal.model.SmsChannel;
 import org.springframework.beans.factory.annotation.Autowired;

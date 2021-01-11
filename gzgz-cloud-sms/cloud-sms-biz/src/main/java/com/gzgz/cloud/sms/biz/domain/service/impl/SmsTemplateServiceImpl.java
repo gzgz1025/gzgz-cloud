@@ -1,6 +1,6 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
-import com.gzgz.cloud.mbg.mapper.SmsTemplateMapper;
+import com.gzgz.cloud.sms.dal.mapper.SmsTemplateMapper;
 import com.gzgz.cloud.sms.biz.domain.service.SmsTemplateService;
 import com.gzgz.cloud.sms.dal.model.SmsTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

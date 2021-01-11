@@ -4,6 +4,7 @@ import com.gzgz.cloud.common.asserts.Result;
 import com.gzgz.cloud.sms.facade.SmsApiService;
 import com.gzgz.cloud.sms.facade.dto.SmsRequestDTO;
 import com.gzgz.cloud.sms.facade.dto.SmsTemplateRequestDTO;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/channel/service/smsPlatform/")
+@Api(tags = "短信发送接口")
 public class SmsPlatformController {
     @Autowired
     private SmsApiService smsApiService;

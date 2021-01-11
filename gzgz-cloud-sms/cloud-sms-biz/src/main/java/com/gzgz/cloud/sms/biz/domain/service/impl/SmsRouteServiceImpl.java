@@ -1,7 +1,7 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
 import com.gzgz.cloud.common.exception.AssertsException;
-import com.gzgz.cloud.mbg.mapper.SmsRouteMapper;
+import com.gzgz.cloud.sms.dal.mapper.SmsRouteMapper;
 import com.gzgz.cloud.sms.biz.domain.provider.SmsProvider;
 import com.gzgz.cloud.sms.biz.domain.service.SmsRouteService;
 import com.gzgz.cloud.sms.dal.model.SmsRoute;

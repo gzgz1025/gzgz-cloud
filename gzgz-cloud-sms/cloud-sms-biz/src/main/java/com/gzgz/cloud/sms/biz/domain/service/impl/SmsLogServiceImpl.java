@@ -1,6 +1,6 @@
 package com.gzgz.cloud.sms.biz.domain.service.impl;
 
-import com.gzgz.cloud.mbg.mapper.SmsLogMapper;
+import com.gzgz.cloud.sms.dal.mapper.SmsLogMapper;
 import com.gzgz.cloud.sms.biz.domain.service.SmsLogService;
 import com.gzgz.cloud.sms.dal.model.SmsLog;
 import lombok.extern.slf4j.Slf4j;
