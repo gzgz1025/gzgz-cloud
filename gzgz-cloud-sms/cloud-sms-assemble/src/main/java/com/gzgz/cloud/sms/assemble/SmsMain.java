@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Version: 1.0
  */
 @SpringBootApplication(scanBasePackages = {"com.gzgz.cloud.sms.*"})
-@MapperScan("com.gzgz.cloud.sms.*")
+@MapperScan("com.gzgz.cloud.sms.dal.mapper")
 public class SmsMain {
     public static void main(String[] args) {
         SpringApplication.run(SmsMain.class, args);
