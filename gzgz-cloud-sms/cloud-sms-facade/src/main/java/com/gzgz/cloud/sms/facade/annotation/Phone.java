@@ -19,7 +19,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
  * @ClassName: Phone
- * @Description:
+ * @Description: 比较好的参考 ：https://github.com/VincentSit/ChinaMobilePhoneNumberRegex/blob/master/README-CN.md
  * @Author: pzl
  * @CreateDate: 2021/1/8 16:45
  * @Version: 1.0
